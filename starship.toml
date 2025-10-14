@@ -4,6 +4,7 @@ format = """
 $directory\
 (fg:peach)\
 $git_branch\
+$git_state\
 $git_status\
 $git_stash\
 (fg:yellow)\
@@ -42,6 +43,9 @@ truncate_to_repo = false
 [git_branch]
 symbol = ""
 format = '[ $symbol $branch ](fg:teal)'
+
+[git_state]
+format = '[\($state( $progress_current/$progress_total)\)](fg:peach)'
 
 [git_status]
 style = ""
