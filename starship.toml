@@ -2,12 +2,10 @@
 
 format = """
 $directory\
-(fg:peach)\
 $git_branch\
 $git_state\
 $git_status\
 $git_stash\
-(fg:yellow)\
 $time\
 $cmd_duration\
 $character"""
