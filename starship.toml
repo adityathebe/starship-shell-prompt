@@ -34,12 +34,12 @@ format = '[\($state( $progress_current/$progress_total)\)](fg:peach)'
 
 [git_status]
 style = ""
-stashed = '[ *$count](fg:green)'
-staged = '[ +($count)](fg:yellow)'
+stashed = '[ *$count](fg:rosewater)'
+staged = '[ +($count)](fg:mauve)'
 modified = '[ !($count)](fg:yellow)'
 ahead = '[ ⇡${count}](fg:green)'
-behind = ' ⇣${count}'
-diverged = ' ⇡${ahead_count}⇣${behind_count}'
+behind = '[ ⇣${count}](fg:green)'
+diverged = '[ ⇡${ahead_count}⇣${behind_count}](fg:green)'
 untracked = "[ ?${count}](fg:lavender)"
 format = '[[($all_status$ahead_behind )](fg:crust )]($style)'
 conflicted = '🏳'
