@@ -10,7 +10,7 @@ $time\
 $cmd_duration\
 $character"""
 
-palette = 'catppuccin_mocha'
+palette = 'one_light'
 
 [directory]
 style = "fg:blue"
@@ -71,6 +71,34 @@ style = "bg:lavender"
 disabled = false
 show_notifications = true
 min_time_to_notify = 1000 # milliseconds
+
+[palettes.one_light]
+rosewater = "#986801"
+flamingo = "#e45649"
+pink = "#a626a4"
+mauve = "#a626a4"
+red = "#e45649"
+maroon = "#ca1243"
+peach = "#d19a66"
+yellow = "#c18401"
+green = "#50a14f"
+teal = "#0184bc"
+sky = "#0184bc"
+sapphire = "#0184bc"
+blue = "#4078f2"
+lavender = "#7e4fcb"
+text = "#383a42"
+subtext1 = "#4b5263"
+subtext0 = "#5c6370"
+overlay2 = "#6b717d"
+overlay1 = "#7e858e"
+overlay0 = "#9da1a8"
+surface2 = "#bfc0c4"
+surface1 = "#d3d4d6"
+surface0 = "#e7e7e8"
+base = "#fafafa"
+mantle = "#f0f0f1"
+crust = "#e7e7e8"
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"
