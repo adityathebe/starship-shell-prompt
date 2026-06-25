@@ -1,7 +1,6 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-$os\
 $hostname\
 $directory\
 $git_branch\
@@ -13,17 +12,6 @@ $cmd_duration\
 $character"""
 
 palette = 'one_light'
-
-[os]
-disabled = false
-format = '[$symbol ](fg:blue)'
-
-[os.symbols]
-Arch = "󰣇"
-Macos = "󰀵"
-Ubuntu = "󰕈"
-Windows = "󰍲"
-Linux = "󰌽"
 
 [directory]
 style = "fg:blue"
@@ -226,7 +214,7 @@ mantle = "#1e2030"
 crust = "#181926"
 
 [hostname]
-style = "fg:blue"
+style = "fg:peach"
 ssh_only = true
-format = '[$hostname ]($style)'
+format = '[\[$hostname\] ]($style)'
 disabled = false
